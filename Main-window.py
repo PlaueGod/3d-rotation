@@ -3,7 +3,7 @@ import turtle
 import random
 
 
-#
+
 # main_window = tk.Tk()
 # main_window.title("My GUI")
 # main_window.configure(background="white")
