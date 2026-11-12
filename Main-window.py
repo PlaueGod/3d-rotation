@@ -1,8 +1,6 @@
 import tkinter as tk
 import turtle
-import random
-
-
+from turtledemo.forest import symRandom
 
 # main_window = tk.Tk()
 # main_window.title("My GUI")
@@ -12,20 +10,25 @@ import random
 # main_window.geometry("700x700")
 # main_window.mainloop()
 
-showturtle = turtle.Turtle()
+turtle.bgcolor("white")
+turtle.pencolor("blue")
 
 
+turtle.teleport(-300,-300)
+for i in range(20):
+        turtle.pensize(10)
+        turtle.speed(50)
+        turtle.fd(700)
+        turtle.left(120)
 
-turtle.bgcolor("green")
-for i in range(random.randint(10,20)):
-    turtle.begin_fill()
-    for c in ('yellow','blue'):
-        turtle.pensize(4)
-        turtle.color(c)
-        turtle.speed(20)
-        turtle.fd(300)
-        turtle.rt(201)
-    turtle.end_fill()
+
+turtle.teleport(35,-480)
+
+for i in range(20):
+        turtle.pensize(10)
+        turtle.speed(50)
+        turtle.back(700)
+        turtle.left(120)
 
 
 
