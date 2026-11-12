@@ -1,5 +1,6 @@
 import tkinter as tk
 import turtle
+from turtledemo.forest import symRandom
 
 # main_window = tk.Tk()
 # main_window.title("My GUI")
@@ -19,7 +20,10 @@ for i in range(15):
         turtle.speed(20)
         turtle.fd(300)
         turtle.rt(201)
-        turtle.delay(15)
+        turtle.delay(5)
+        turtle.bk (20)
+
+
 
 
 
